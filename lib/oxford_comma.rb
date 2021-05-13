@@ -1,3 +1,5 @@
+
 def oxford_comma(fruits)
-  ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"].split(",")
+  fruits = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
+  fruits.split(",")
 end
