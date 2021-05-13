@@ -1,9 +1,11 @@
 
 def oxford_comma(arrays)
+  if array.length == 1
+    return array
   if array.length == 2
     return "#{array[0]} and #{array[1]}"
   elsif array.length > 2
-    array[-1].insert(0, "and")
+    array[-1].insert(-2, "and")
   end
   array.join(",")
 end
